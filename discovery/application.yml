@@ -1,7 +1,15 @@
-﻿spring:
+﻿server:
+  port: 9000
+
+spring:
   application:
     name: discovery
   profiles:
     active: native
-
-msg: Hello
+    
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:9000/eureka
