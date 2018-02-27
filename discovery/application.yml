@@ -1,0 +1,7 @@
+﻿spring:
+  application:
+    name: discovery
+  profiles:
+    active: native
+
+msg: Hello
