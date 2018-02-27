@@ -6,6 +6,9 @@ spring:
     name: rest
   profiles:
     active: native
+  data:
+    mongodb:
+      database: test
 
 eureka:
   client:
