@@ -2,4 +2,4 @@
   application:
     name: discovery
   profiles:
-    active: git
+    active: native
