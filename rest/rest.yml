@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: rest
+  profiles:
+    active: native
 
 eureka:
   client:
