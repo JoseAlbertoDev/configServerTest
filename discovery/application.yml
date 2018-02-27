@@ -1,3 +1,5 @@
 ﻿spring:
   application:
     name: discovery
+  profiles:
+    active: git
