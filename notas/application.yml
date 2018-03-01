@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: rest
+    name: notas
   profiles:
     active: native
   data:
