@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: notas
+    name: tablon
   profiles:
     active: native
 
