@@ -13,6 +13,8 @@ eureka:
       defaultZone: http://localhost:9000/eureka
       
 zuul:
+  host:
+    socket-timeout-millis: 3000
   routes:
     notas:
       serviceId: notas
